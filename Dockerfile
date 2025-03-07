@@ -13,7 +13,6 @@ RUN echo 'rules_version = "2"; service firebase.storage { match /b/{bucket}/o { 
 
 RUN npm install -g firebase-tools
 
-
 EXPOSE 4000
 EXPOSE 8085
 EXPOSE 9099
