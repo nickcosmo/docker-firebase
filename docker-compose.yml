@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  firebase:
+    image: firestore
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+      - 8085:8085
+      - 9099:9099
+      - 9199:9199
